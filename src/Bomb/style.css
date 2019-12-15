@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: auto;
+  text-align: center;
+  background-image: url("https://images.assetsdelivery.com/compings_v2/yupiramos/yupiramos1304/yupiramos130400873.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+.container {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.Tick {
+  margin-top: 30px;
+  color: darkblue;
+  font-weight: bold;
+  font-size: 60px;
+}
+.Tock {
+  margin-top: 30px;
+  font-size: 60px;
+}
+.Boom {
+  margin-top: 60px;
+  color: red;
+  font-size: 30px;
+}
